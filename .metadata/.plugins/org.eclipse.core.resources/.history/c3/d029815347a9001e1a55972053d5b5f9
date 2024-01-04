@@ -1,0 +1,43 @@
+package sec03.exam01;
+
+import java.util.Scanner;
+
+public class Studentcredits {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int score;
+		
+		System.out.print("학점을 입력하시오:");
+		score =sc.nextInt();
+		System.out.print("학점을 입력하시오:");
+		score =sc.nextInt();
+		System.out.print("학점을 입력하시오:");
+		score =sc.nextInt();
+		System.out.print("학점을 입력하시오:");
+		score =sc.nextInt();
+		System.out.print("학점을 입력하시오:");
+		score =sc.nextInt();
+
+			if (90<=score&&score<=100) {
+			System.out.println("학점은 A");
+			} else if(80<=score&&score<90) {
+			System.out.println("학점은 B");
+			} else if(70<=score&&score<80) {
+			System.out.println("학점은 C");
+			} else if(score<70) {
+			System.out.println("학점은 F");
+		}
+		
+		
+		
+		//point[i]
+
+		//for(int i=0; i<size; i++) {
+		//System.out.println("점수를 입력하시오.");
+		//point[i]= sc.next();
+		}
+		//System.out.println("학생의 학점은: "+ point[i])
+	}
+
+

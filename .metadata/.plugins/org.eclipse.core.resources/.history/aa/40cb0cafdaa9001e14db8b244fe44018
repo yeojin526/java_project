@@ -1,0 +1,15 @@
+package sec02.exam01;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+
+		for(int i=0;i<7;i++) {
+			int num =(int) (Math.random()*46); //double값이 나오므로 오류가 뜨기 때문에 강제 형변환 해줌
+			                          //*45 => 45개의 임의의 수
+			                          //+1  => *45가 사실상 44개까지 이므로 +1을 해줘야 함
+			System.out.println(num); //난수 발생(=임의의 숫자가 발생)
+		}
+	}
+
+}

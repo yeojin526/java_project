@@ -1,0 +1,32 @@
+package sec03.exam01;
+
+import java.util.Scanner;
+
+public class Studentcredits {
+	public static void main(String[] args) {
+		
+		String[] point = new String[5];
+		int size = point.length;
+	
+		Scanner sc = new Scanner(System.in);
+		
+		
+		if (90<=size&&size<=100) {
+			System.out.println("A");
+		} else if(80<=size&&size<90) {
+			System.out.println("B");
+		} else if(70<=size&&size<80) {
+			System.out.println("C");
+		} else if(size<70) {
+			System.out.println("F");
+		}
+		//point[i]
+
+		//for(int i=0; i<size; i++) {
+		//System.out.println("점수를 입력하시오.");
+		//point[i]= sc.next();
+		}
+		//System.out.println("학생의 학점은: "+ point[i])
+	}
+
+

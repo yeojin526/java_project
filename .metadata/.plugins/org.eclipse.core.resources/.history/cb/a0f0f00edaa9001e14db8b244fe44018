@@ -1,0 +1,11 @@
+package sec02.exam01;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+		for(int i=0;i<10;i++) {
+			System.out.println(Math.random()); //난수 발생(=임의의 숫자가 발생)
+		}
+	}
+
+}

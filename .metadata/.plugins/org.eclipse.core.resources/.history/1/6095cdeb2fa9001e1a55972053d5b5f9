@@ -1,0 +1,31 @@
+package sec03.exam01;
+
+public class Example01 {
+	public static void main(String[] args) {
+	int var1= 100;
+	{
+		int var2= 200;
+		int var3= 300;
+
+		System.out.printf("var2: %d, var1: %d\n", var3, var1);
+	}
+	
+	}
+
+}
+
+	
+	
+	
+
+//	public static void main(String[] args) {
+//		int x = 10;
+//		int y = 20;
+//		
+//		System.out.printf("x는 %d, y는 %d\n", x, y);
+//		
+//		int temp = x;
+//		x=y;
+//		y = temp;
+//		System.out.printf("x는 %d, y는 %d\n", x, y);
+

@@ -1,0 +1,26 @@
+package sec02.exam01;
+
+import java.util.Random;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+
+
+		int a =(int) (Math.random()*9+1);
+		int b =(int) (Math.random()*9+1);
+		System.out.println(a+"X"+b+"= ?");
+		
+		int i;
+		while(int i= a*b); {
+			if(i!=a*b) {
+				System.out.println("틀렸습니다.");
+				System.out.println(a+"X"+b+"= ?");
+			}
+		
+		}
+		
+		}
+	}
+
+}
