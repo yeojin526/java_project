@@ -1,9 +1,0 @@
-package sec02.exam01;
-
-public class Lotto {
-
-	public static void main(String[] args) {
-		System.out.println(Math.PI);
-	}
-
-}
