@@ -62,6 +62,6 @@ public class Project1_0108 {
 			}
 
 		}
-		System.out.println("프로그램 종료");
+		System.out.println("종료");
 	}
 }
