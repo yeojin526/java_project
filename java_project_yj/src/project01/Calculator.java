@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 
 public class Calculator extends JFrame implements ActionListener, MouseListener {
 	// 액션(동작) 관련 이벤트
+	//이거 추가가가ㅏ가
 	CalButton but = new CalButton();
 	JTextField t1 = new JTextField(); // 입력창 (숫자 입력 공간)
 
